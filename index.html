@@ -4,68 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" href="href="https://fonts.googleapis.com/css?family=Tangerine">
     <title>My Sign up form</title>
 </head>
 <body>
-    <div class="leftImage" >
-        <div class="odin-logo">
-            <img src="odin.png" alt="">
-            Sydney Goeury for  <i>The Odin Project</i>
-        </div>
-
-    </div>
-    <div class="signUp">
-        <div class="top">
-            <p>
-                This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
-        
-                Sign up now to get started.
-        
-                You know you want to.
+    <div class = "container">
+        <div class="leftImage">
+            <div class="odin-logo">
+                <img src="odin.png" alt="">
                 
-            </p>
+            </div>
+            <div class="signature">
+                <p>Sydney Goeury for <i>The Odin Project</i></p> 
+            </div>
 
         </div>
-        <div class="middle">
-            <form>
-                <legend>Let's sign up y'all!!</legend>
-                <div class="full-form">
-                    <div class="left-form">
-                        <label for="firstName">First Name</label>
-                        <input type="text" required>
-                        <label for="lastName">Last Name</label>
-                        <input type="text" required>
-                        <label for="email">Email Address</label>
-                        <input type="email">
-                    </div>
+        <div class="signUp">
+            <div class="top">
+                <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+
+                <p>Sign up now to get started.</p>
             
-                    <div class="right-form">
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="tel">
-                        <label for="password">Password</label>
-                        <input type="password">
-                        <label for="confirmPassword">Confirm Password</label>
-                        <input type = "password">
-                    </div>
-                   <button>Submit</button>
+                <p>You know you want to.</p>
                 
+            </div>
+            <div class="middle">
+                
+                
+                <form class="myForm">
+                    <div class="form-legend">
+                        <legend>Let's sign up</legend>
+                    <div class="full-form">
+                        
+                        <div class="left-form">
+                            <label for="firstName">First Name</label>
+                            <input type="text" required>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" required>
+                            <label for="email">Email Address</label>
+                            <input type="email">
+                        </div>
+                
+                        <div class="right-form">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="tel">
+                            <label for="password">Password</label>
+                            <input type="password">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type = "password">
+                        </div>
 
+                    </div>
                 </div>
+                    <button class="myButton">Submit</button>
+                    
+                    
+                </form>
                 
-               </form>
-            
-        </div>
+            </div>
 
-        <div class="bottom">
-            <p>
-                Already have an account? <strong>Log In</strong>
-            </p>
-        </div>
-       
+            <div class="bottom">
+                <p>
+                    Already have an account? <strong>Log In</strong>
+                </p>
+            </div>
+        
 
-    </div>
-   
+        </div> 
     
+    </div>
 </body>
 </html>
