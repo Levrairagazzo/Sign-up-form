@@ -88,15 +88,24 @@ label{
 
 }
 .odin-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 1vh;
-
+    background-color: rgba(0, 0, 0, 0.3);
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 75%;
 }
 
 .odin-logo img{
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 20%;
+    max-height: 20%;
 }
 .odin-logo p{
+    font-size: 2rem;
     
     
 }
@@ -122,4 +131,11 @@ label{
 .myButton{
     margin-top: 3em;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
 
